@@ -1,0 +1,27 @@
+<html>
+<title>Total Marks & Percentage Calculator</title>
+<h1>Enter The Marks of a student of </h1>
+CHEMISTRY <input id=t1 /> <br>
+PHYSICS   <input id=t2 /> <br>
+MATHS     <input id=t3 /> <br>
+BIOLOGY   <input id=t4 /> <br>
+HINDI     <input id=t5 /> <br>
+<input type=button value=Submit onclick="Total()" /> <br>
+<strong>
+<output id=out1 />
+</strong>
+<script>
+function Total()
+{
+a=parseInt(t1.value);
+b=parseInt(t2.value);
+c=parseInt(t3.value);
+d=parseInt(t4.value);
+e=parseInt(t5.value);
+s=a+b+c+d+e;
+p=s/5;
+out1.value='Total marks of Student is:   ' + s +'   & Percentage :    ' + p +' %'
+}
+</script>
+</html>
+</html>
