@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<style>
+  .screen { height:60px; width:390px; font-size:45; color:red; text-align:right}
+  .btn { height:50px; width:50px; font-size:30px; color:red;}
+  .btn2 {font-size:25px}
+  .btn:hover {color:blue}
+</style>
+<center>
+  <table border=1>
+    <tr> <td colspan="6px"><input class="screen"></td></tr>
+    <tr>
+      <td>
+      <td><input type="button" value="C" class="btn"</td>
+      <td><input type="button" value="CE" class="btn"</td>
+       <td colspan="3px"><input type="button" value="BACKSPACE" class="btn btn2" </td>
+       </td> 
+    </tr>
+    
+    <tr>
+      <td>
+      <td><input type="button" value="7" class="btn"</td>
+      <td><input type="button" value="8" class="btn"</td>
+      <td><input type="button" value="9" class="btn"</td>
+      <td><input type="button" value="M" class="btn"</td>
+      <td><input type="button" value="M+" class="btn"</td>
+       <td colspan="3px"><input type="button" value="M-" class="btn btn2" </td>
+       </td> 
+    </tr>
+  
+   <tr>
+      <td>
+      <td><input type="button" value="4" class="btn"</td>
+      <td><input type="button" value="5" class="btn"</td>
+      <td><input type="button" value="6" class="btn"</td>
+      <td><input type="button" value="+" class="btn"</td>
+      <td><input type="button" value="-" class="btn"</td>
+       <td colspan="3px"><input type="button" value="*" class="btn btn2" </td>
+       </td> 
+    </tr>
+    
+     <tr>
+      <td>
+      <td><input type="button" value="1" class="btn"</td>
+      <td><input type="button" value="2" class="btn"</td>
+      <td><input type="button" value="3" class="btn"</td>
+      <td><input type="button" value="/" class="btn"</td>
+      <td><input type="button" value="0" class="btn"</td>
+       <td colspan="3px"><input type="button" value="00" class="btn btn2" </td>
+       </td> 
+    </tr>
+  
+  
+  </table>
+  
+  
+</center>
+<output id=out class="screen" />
+</html>
+<script>
+function add()
+{
+a=parseInt(or1.value);
+b=parseInt(or2.value);
+c=a+b;
+out.value=a + " + " + b + '  is   ' +  c }
+function sub()
+{
+a=parseInt(or1.value);
+b=parseInt(or2.value);
+c=a-b;
+out.value=a +  " - "  + b +' is ' +  c }
+function mul()
+{
+a=parseInt(or1.value);
+b=parseInt(or2.value);
+c=a*b;
+out.value=a+" x "+b+'  is  ' +  c }
+function div()
+{
+a=parseInt(or1.value);
+b=parseInt(or2.value);
+c=a/b;
+out.value=a + " /" + b + ' is  ' + c }
+</script>
