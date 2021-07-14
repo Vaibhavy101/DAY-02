@@ -1,0 +1,30 @@
+<center>
+<hr color="blue">
+NO 1<input type="text" id="N1"> </input> <br>
+NO 2<input type="text" id="N2"> </input> <br>
+NO 3<input type="text" id="N3"> </input> <br>
+<hr color="blue">
+<button onclick="number()">OK</button>
+</center>
+<script>
+  function number()
+  {
+    var a, b, c;
+				a = Number(document.getElementById("N1").value);
+				b = Number(document.getElementById("N2").value);
+				c = Number(document.getElementById("N3").value);
+    
+    if(a>b && a>c)
+				{
+					window.alert(a+"-is greatest");
+				}
+				else if(b>a && b>c)
+				{
+					window.alert(b+"-is greatst");
+				}
+				else if(c>a && c>b)
+				{
+					window.alert(c+"is greatest");
+				}
+  }
+</script>
