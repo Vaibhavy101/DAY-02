@@ -1,0 +1,56 @@
+<style>
+  ul{ list-style: none; background-color: gold; widths: 100%;}
+  li{ float: left; padding: 19px;  color: white;}
+  li:hover{background-color:gold; color: yellow text-decoration;}
+  li:{background-color:black; color: yellow text-decoration;}
+  li{ style:color=green; text-decoration:bold; color: brown; text-size:25px;}
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.vertical-menu {
+  width: 1000px;
+  height: 250px;
+  overflow-y: auto;
+}
+
+.vertical-menu a {
+  background-color: black;
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: grey;
+}
+
+.vertical-menu a.active {
+  background-color: gold;
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>WELCOME TO ALL IN SCROLL PRACTICE</h1>
+
+<div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="#">NAME</a>
+  <a href="#">CLASS</a>
+  <a href="#">ROLL</a>
+  <a href="#">ADDRESS</a>
+  <a href="#">DATE</a>
+  <a href="#">GENDER</a>
+  <a href="#">AIM</a>
+  <a href="#">THANKS</a>
+
+</div>
+
+</body>
+</html>
